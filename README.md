@@ -3,3 +3,4 @@ this isn't an actual release of xan so check out the real thing from their disco
 # what it adds
 - config switcher
 - auto load for config(idk why it doesn't already do that)
+- more to come!
