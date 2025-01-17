@@ -1,6 +1,5 @@
 ; dont steal i will dmca
 ; watermark 1
-;THIS IS NOT THE REAL XAN goto the discord for the official releases
 #SingleInstance Force
 #NoEnv
 setkeydelay, -1
@@ -78,12 +77,14 @@ Loop, configs\*.ini {
 
 ;end
 Gui, Show, w500 h235, Xan
+
+
+
+EnableBlur(hMain)
 ;extra: load settings on-load
 If (FileExist(A_ScriptDir . "\Settings.ini")) {
     Goto, LoadSettings
 }
-
-EnableBlur(hMain)
 return
 
 ;   SETTINGS ----------------------------------------------------------------------------------------------;
