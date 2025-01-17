@@ -1,5 +1,6 @@
 ; dont steal i will dmca
 ; watermark 1
+;THIS IS NOT THE REAL XAN goto the discord for the official releases
 #SingleInstance Force
 #NoEnv
 setkeydelay, -1
